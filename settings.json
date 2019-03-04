@@ -1,0 +1,13 @@
+{
+    "minDonateAmount": 10,
+    "maxDonateAmount": 100,
+    "messages": {
+        "start": "Hello!",
+        "help": "Help text",
+        "enterAmount": "Enter amount",
+        "productName": "Product name",
+        "productDescription": "Product description",
+        "thanks": "Thank you",
+        "priceLabel": "Some product"
+    }
+}

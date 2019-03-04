@@ -1,22 +1,26 @@
 {
-  "name": "donatetelegrambot",
+  "name": "danatebot",
   "version": "1.0.0",
-  "description": "This my telegram Bot",
-  "main": "index.js",
+  "description": "We love donates!",
+  "main": "dist/index",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev src/index | uk-log",
+    "compile": "tsc"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/044qq/DonateTelegramBot.git"
-  },
-  "author": "",
+  "keywords": [
+    "Donate"
+  ],
+  "author": "dontreadthebooks",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/044qq/DonateTelegramBot/issues"
-  },
-  "homepage": "https://github.com/044qq/DonateTelegramBot#readme",
   "dependencies": {
+    "@uk/log": "^1.0.2",
+    "@uk/tool": "^1.0.3",
     "node-telegram-bot-api": "^0.30.0"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.30.4",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.3.3333"
   }
 }
